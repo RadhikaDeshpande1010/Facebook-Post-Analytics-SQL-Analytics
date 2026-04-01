@@ -8,10 +8,8 @@
 
 
 /* ------------------------------------------------------------
-   DDL : DROP & CREATE TABLE
+   DDL : CREATE TABLE
    ------------------------------------------------------------ */
-
-DROP TABLE facebook_post_analytics PURGE;
 
 CREATE TABLE facebook_post_analytics (
     post_id                  INT             PRIMARY KEY,
